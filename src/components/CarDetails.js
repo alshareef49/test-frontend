@@ -11,7 +11,7 @@ export default function CarDetails() {
     useEffect(() => {
         async function fetchData() {
             try {
-                const response = await fetch(`https://test-backend-roan-kappa.vercel.app/car/cardetails/${id}`, {
+                const response = await fetch(`https://test-backend-dusky.vercel.app/car/cardetails/${id}`, {
                     method:'GET',
                     // credentials:'include',
             })
@@ -41,7 +41,7 @@ export default function CarDetails() {
                     <div className='row'>
                         <div className='col-lg-6 '>
                             <div className="card">
-                                <img src={`https://carsdeals-git-main-faizan-s-projects-a419aec2.vercel.app/${carDetails.carImage}`}  className="card-img-top" alt="..." />
+                                <img src={`https://test-backend-dusky.vercel.app/${carDetails.carImage}`}  className="card-img-top" alt="..." />
                             </div>
                         </div>
                         <div className='col-lg-6 p-0 d-flex align-items-center'>

@@ -16,7 +16,7 @@ if(redirect===true){
 const handleSignup = async (e) => {
   e.preventDefault();
 
-  const response = await fetch('https://test-backend-roan-kappa.vercel.app/user/signup2', {
+  const response = await fetch('https://test-backend-dusky.vercel.app/user/signup2', {
     method: 'POST',
     body: JSON.stringify({ email, password, username, location }),
     headers: { 'Content-Type': 'application/json' },

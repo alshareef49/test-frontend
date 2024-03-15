@@ -10,7 +10,7 @@ function Cars() {
 
 
   async function handleSoldCars() {
-    const response = await fetch('https://test-backend-roan-kappa.vercel.app/car/soldcars',
+    const response = await fetch('https://test-backend-dusky.vercel.app/car/soldcars',
       {
         method: 'GET',
         // credentials: 'include'
@@ -27,7 +27,7 @@ function Cars() {
   }
 
   async function handleDealerCars() {
-    const response = await fetch('https://test-backend-roan-kappa.vercel.app/car/dealercars',
+    const response = await fetch('https://test-backend-dusky.vercel.app/car/dealercars',
       {
         method: 'POST',
         headers: {
@@ -52,7 +52,7 @@ function Cars() {
 
 
   async function handleOwnerCars() {
-    const response = await fetch('https://test-backend-roan-kappa.vercel.app/car/clientcars',
+    const response = await fetch('https://test-backend-dusky.vercel.app/car/clientcars',
       {
         method: 'POST',
         headers: {
@@ -75,7 +75,7 @@ function Cars() {
 
   useEffect(() => {
     async function fn() {
-      const response = await fetch('https://test-backend-roan-kappa.vercel.app/car/cars',
+      const response = await fetch('https://test-backend-dusky.vercel.app/car/cars',
         {
           method: 'GET',
           // credentials: 'include'

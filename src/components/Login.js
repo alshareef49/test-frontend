@@ -17,7 +17,7 @@ function Login() {
 
   const login=async(e)=>{
     e.preventDefault();
-    const response=await fetch('https://test-backend-roan-kappa.vercel.app/user/login',{
+    const response=await fetch('https://test-backend-dusky.vercel.app/user/login',{
     method:'POST',
     body:JSON.stringify({email,password}),
     headers:{'Content-Type':'application/json'},

@@ -17,7 +17,7 @@ export default function Logout() {
             // Perform logout operation, e.g., making a request to the server
             try {
                 // Your logout API request here
-                const response = await fetch('https://test-backend-roan-kappa.vercel.app/user/logout', {
+                const response = await fetch('https://test-backend-dusky.vercel.app/user/logout', {
                     method: 'GET',
                     // credentials: 'include',
                 });

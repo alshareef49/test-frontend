@@ -11,7 +11,7 @@ function Buy() {
 
     useEffect(() => {
         async function fn() {
-            const response = await fetch(`https://test-backend-roan-kappa.vercel.app/car/buy/${Id}`, {
+            const response = await fetch(`https://test-backend-dusky.vercel.app/car/buy/${Id}`, {
                 method: 'GET',
                 // credentials: 'include',
             });

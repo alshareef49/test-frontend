@@ -12,7 +12,7 @@ function ChangePassword() {
 
   const handlePassword=async(e)=>{
     e.preventDefault();
-    const response=await fetch('https://test-backend-roan-kappa.vercel.app/user/updatepassword',{
+    const response=await fetch('https://test-backend-dusky.vercel.app/user/updatepassword',{
     method:'POST',
     body:JSON.stringify({oldPassword,newPassword,email}),
     headers:{'Content-Type':'application/json'},

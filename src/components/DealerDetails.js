@@ -15,7 +15,7 @@ export default function DealerDetails() {
 
     useEffect(() => {
         async function fn() {
-            const response = await fetch('https://test-backend-roan-kappa.vercel.app/deal/dealerdetails', {
+            const response = await fetch('https://test-backend-dusky.vercel.app/deal/dealerdetails', {
                 method: 'GET',
                 // credentials: 'include'
             });
@@ -77,7 +77,7 @@ export default function DealerDetails() {
                                         <div className='row mt-3'>
                                             <div className='offset-lg-2 col-lg-4 mb-1'>
                                                 <div className="card"  >
-                                                    <img src={`https://carsdeals-git-main-faizan-s-projects-a419aec2.vercel.app/${item.carImage}`} className="card-img-top" alt="..." />
+                                                    <img src={`https://test-backend-dusky.vercel.app/${item.carImage}`} className="card-img-top" alt="..." />
                                                 </div>
                                             </div>
                                             <div className=' col-lg-4  d-flex align-items-center cars'>

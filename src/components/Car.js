@@ -8,7 +8,7 @@ function Car({ type, name, model, carImage, location ,_id }) {
             <div className="row  mt-3">
                 <div className='offset-lg-2 col-lg-4 mb-1'>
                     <div className="card"  >
-                        <img src={'https://test-backend-roan-kappa.vercel.app/' + carImage} className="card-img-top" alt="..." />
+                        <img src={'https://test-backend-dusky.vercel.app/' + carImage} className="card-img-top" alt="..." />
                     </div>
                 </div>
                 <div className='col-lg-4  d-flex align-items-center cars'>

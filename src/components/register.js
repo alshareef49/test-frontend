@@ -18,7 +18,7 @@ function Register() {
   const handleSignup = async (e) => {
     e.preventDefault();
 
-    const response = await fetch('https://test-backend-roan-kappa.vercel.app/user/signup1', {
+    const response = await fetch('https://test-backend-dusky.vercel.app/user/signup1', {
       method: 'POST',
       body: JSON.stringify({ email, password, username, location }),
       headers: { 'Content-Type': 'application/json' },

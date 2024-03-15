@@ -13,7 +13,7 @@ function Header() {
     useEffect(() => {
         const verifyCookie = async () => {
           try {
-            const response = await fetch('https://test-backend-roan-kappa.vercel.app/user/profile', {
+            const response = await fetch('https://test-backend-dusky.vercel.app/user/profile', {
               method: 'GET',
               // credentials: 'include', // Include credentials (cookies) in the request
             });

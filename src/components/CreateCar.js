@@ -31,7 +31,7 @@ function CreateCar() {
             formData.append('location', location);
 
 
-            const response = await fetch('https://test-backend-roan-kappa.vercel.app/car/createcar', {
+            const response = await fetch('https://test-backend-dusky.vercel.app/car/createcar', {
                 method: 'POST',
                 body: formData,
                 // credentials: 'include'
